@@ -1,0 +1,52 @@
+/* Import font Archivo */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Style Guide */
+  
+  /* Colors */
+  --bg-color: #0F172A;
+  --stroke-color: #1E293B;
+  --brand-color-light: #60A5FA;
+  --brand-color-dark: #1D4ED8;
+  --text-color-primary: #F1F5F9;
+  --text-color-secondary: #CBD5E1;
+
+  /* Typography */
+  --archivo: "Archivo", sans-serif;
+  --h1: extrabold 24px/135% var(--archivo);
+  --h2: extrabold 16px/140% var(--archivo);
+  --h3: extrabold 14px/140% var(--archivo);
+  --span: semibold 14px/145% var(--archivo);
+  --paragraph: 14px/160% var(--archivo);  
+}
+
+body {
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
+  font: var(--archivo);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color-light);
+}
+
+
+h1, h2, h3 {
+  color: inherit;
+}
+
+.container {
+  width: 1216px;
+}
